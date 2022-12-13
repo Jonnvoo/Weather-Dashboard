@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/style.css">
+
+
+
+
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <header class="jumbotron">
+        <h1 class="display-3">Weather Dashboard</h1>
+    </header>
+    <main>
+        <!-- This is the search box -->
+        <div class="col-12">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <aside id="form">
+                        <div class="mb-3">
+                            <label for="search-city" class="form-title">Search for a City</label>
+                            <input type="text" class="mt-2 mb-2" id="search-city">
+                        </div>
+                        <button type="button" id="searchBtn" class="btn-secondary">Search</button>
+                    </aside>
+                    <ul id="recent-searches">
+                    </ul>
+                </div>
+                <!-- This is our current weather box -->
+                    <div class="col-lg-9">
+                        <div id="current-weather" class="col-10 mb-3">
+                        <h1 id="current-city">City</h1>
+                        <p id="temp">Temperature:</p>
+                        <p id="wind">Wind:</p>
+                        <p id="humidity">Humidity:</p>
+                        <p id="uv">UV:</p>
+                    </div>
+                    <!-- This is the 5 day forecast cards that we append from our JS -->
+                        <div class="col-lg-9">
+                        <div id="5forecastHead"></div>
+                        <div id="5dayCard" class="row mt-3"></div>
+                    </div>
+
+
+
+
+
+
+    </main>
+</body>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="./assets/script.js"></script>
+
+</html>
