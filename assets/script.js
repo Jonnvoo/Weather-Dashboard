@@ -45,7 +45,6 @@ function weatherApiUrl(input) {
                 $("#wind").text("wind: " + data.wind.speed + "mph");
                 $("#humidity").text("Humidity: " + data.main.humidity + "%");
                 
-                currentCity = data.name;
                 
                 
                 var lat = data.coord.lat;
