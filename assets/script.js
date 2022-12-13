@@ -59,8 +59,8 @@ function weatherApiUrl(input) {
             $("#5dayCard").empty();
             $("#5forecastHead").empty();
             //This grabs the Url 
-            var APIurl = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&appid="+ apikey +"&units=imperial"
-            fetch(APIurl)
+            var forecastUrl = "https://api.openweathermap.org/data/2.5/onecall?lat=" + lat + "&lon=" + lon + "&appid="+ apikey +"&units=imperial"
+            fetch(forecastUrl)
             .then(response => { return response.json() })
             .then(data => {
                 // This grabs the UV data

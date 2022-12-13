@@ -4,6 +4,7 @@
     background-color: darkgrey;
     text-align: justify;
     margin-right:15px ;
+    border-radius: 25px;
 }
 
 header{
@@ -20,9 +21,11 @@ header{
     border: none;
     background: linear-gradient(117deg, rgba(15,73,66,1) 51%, rgba(88,33,170,1) 86%);
     color: white;
+    border-radius: 25px;
 }
 
 #current-weather{
+    border-radius: 25px;
     border: 2px solid blueviolet;
     padding: 15px;
 }
