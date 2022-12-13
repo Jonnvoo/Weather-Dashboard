@@ -3,7 +3,7 @@ var historyArr = [];
 var lastSearch = $("#recent-searches")
 var currentCity = "";
 var lastCity;
-var apikey = "adf080c4900ab48938f6770e1ae7a9c0";
+var apikey = "48be0bda246c0f256bfd9e46494d0bf8";
 var recentSearchBox = $("recent-searches")
 
 
